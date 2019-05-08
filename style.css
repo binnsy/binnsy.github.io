@@ -16,9 +16,11 @@
   padding: 0; }
 
 #resume {
-  padding-top: 25px;
+  margin-top: 25px;
   text-align: center;
+  background: #212121;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px; }
@@ -1757,12 +1759,14 @@ img {
     }
 
     .skills-column img {
-      margin-top: 8px;
+      margin-top: 20px;
       vertical-align: middle;
       height: 150px;
     }
     .skills {
       text-align: center;
+      margin: 10px;
+
     }
 
     /* .skills img{
