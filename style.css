@@ -54,7 +54,9 @@ a:focus {
   color: #000000;
   font-weight: 500;
   font-size: 16px; }
-
+.nav-brand {
+  float: left;
+}
 ul,
 ol {
   margin: 0; }
@@ -64,7 +66,9 @@ ol {
 
 img {
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+  margin: 7px
+}
 
 /* :: 3.1.0 Spacing */
 .mt-15 {
@@ -449,6 +453,7 @@ img {
       @media only screen and (max-width: 767px) {
         .header-area .pixel-main-menu .classy-navbar .nav-brand {
           width: 80px;
+          display: flex;
           margin-right: 10px; } }
       .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
         font-weight: 500;
@@ -723,7 +728,27 @@ img {
   z-index: 3;
   background-color: #ffffff;
   padding-bottom: 5px;
+
 }
+
+.nl-area img {
+  border: 2px solid #0e3b84;
+border-radius: 4px;
+padding: 10px;
+width: 175px;
+margin: 10px;
+transition: all 0.3s ease-in-out 0s
+
+}
+.nl-area img:hover
+	{
+		-moz-box-shadow: 0 0 20px #427AFF;
+		-webkit-box-shadow: 0 0 20px #427AFF;
+		box-shadow: 0 0 20px #427AFF;
+    transform: rotate(15deg);
+    /* transition: all 0.3s ease-in-out 0s; */
+
+	}
   /* .nl-area .nl-form {
     position: relative;
     z-index: 1; }
