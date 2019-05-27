@@ -424,13 +424,15 @@
                             <div class="col-12 col-lg-8">
                                 <!-- Contact Form -->
                                 <div class="contact-form-area text-center">
-                                    <form action="form-to-email.php" method="post">
+                                    <form action="email.php" method="post">
                                         <input type="text" name="name" class="form-control wow fadeInUp" data-wow-delay="100ms" placeholder="Name">
                                         <input type="email" name="email" class="form-control wow fadeInUp" data-wow-delay="300ms" placeholder="E-mail">
                                         <input type="text" name="subject" class="form-control wow fadeInUp" data-wow-delay="500ms" placeholder="Subject">
                                         <textarea name="message" class="form-control wow fadeInUp" data-wow-delay="700ms" placeholder="Message"></textarea>
                                         <button type="submit" class="btn pixel-btn wow fadeInUp" data-wow-delay="900ms">Send Message</button>
                                     </form>
+                                    <!-- <?php mail('alice.binns17@gmail.com', $_POST['subject'], $_POST['message'])?> -->
+                                    <!-- <p>Your email has been sent.</p> -->
                                 </div>
                             </div>
                         </div>
