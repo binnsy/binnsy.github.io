@@ -1797,6 +1797,9 @@ transition: all 0.3s ease-in-out 0s
       text-align: center;
 
     }
+    .about-p {
+      font-size: 25px;
+    }
 
     /* .skills img{
       height: 75px;
