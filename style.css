@@ -1799,6 +1799,7 @@ transition: all 0.3s ease-in-out 0s
     }
     .about-p {
       font-size: 25px;
+      color: white;
     }
 
     /* .skills img{
