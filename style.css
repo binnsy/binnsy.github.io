@@ -811,7 +811,7 @@ transition: all 0.3s ease-in-out 0s
   position: relative;
   z-index: 2;
   width: 75%;
-  height: 400px;
+  /* height: 400px; */
   padding: 10px;
   overflow: hidden;
   -webkit-transition-duration: 500ms;
@@ -1798,8 +1798,11 @@ transition: all 0.3s ease-in-out 0s
 
     }
     .about-p {
-      font-size: 25px;
+      font-size: 17px;
       color: white;
+    }
+    .project {
+      margin: 5px;
     }
 
     /* .skills img{
