@@ -67,13 +67,20 @@ ol {
 img {
   height: auto;
   max-width: 100%;
-  margin: 7px
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
 }
 .portfolio-desc {
   color: white;
 
 }
 
+.widget-title {
+  text-align: center;
+}
+.footer-social-info {
+  text-align: center;
+}
 /* :: 3.1.0 Spacing */
 .mt-15 {
   margin-top: 15px !important; }
@@ -809,7 +816,7 @@ transition: all 0.3s ease-in-out 0s
   float: left;
   position: relative;
   z-index: 2;
-  width: 75%;
+  width: 85%;
   /* height: 400px; */
   padding: 10px;
   overflow: hidden;
